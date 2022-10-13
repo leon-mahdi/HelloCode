@@ -1,6 +1,16 @@
 ﻿int distance = 10000;
 int count = 0;
-int time = 0, v1 = 2, v2 = 3, vDog = 7;
+int time = 0;
+
+Console.WriteLine("Напишите скорость первого друга");
+int v1 = Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine("Напишите скорость второго друга");
+int v2 = Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine("Напишите скорость собаки");
+int vDog = Convert.ToInt32(Console.ReadLine());
+
 bool friend2 = true;
 
 while(distance>10)
